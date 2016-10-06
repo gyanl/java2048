@@ -46,7 +46,7 @@ public class Griddy {
         }
         Random rand = new Random();
         p=rand.nextInt(n);
-        g[(zero[0,p])][(zero[1,p])]=2;
+        g[(zero[0][p])][(zero[1][p])]=2;
     } 
     
     void display()
